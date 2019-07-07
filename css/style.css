@@ -1,0 +1,44 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: brown;
+}
+
+.grid-container {
+                border: solid 2px #000;
+                display: grid;
+                grid-template-columns:  8em  0.1em 8em 0.1em 8em ;
+               
+            }
+ 
+            .grid-item {
+                box-sizing: border-box;
+                text-align:center;
+                font-size: 1.1em;
+                color: rgb(14, 12, 12);
+                
+            }
+            .color1 {background-color: rgb(12, 11, 12);}
+            body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    transition: 0.5s;
+}
+
+#togBut {
+    border: 2px solid white;
+    border-radius: 25px;
+    background: #8296DF;
+    padding: 5px;
+
+}
+
+#togBut:hover {
+    background: black;
+    color: white;
+
+
+}
